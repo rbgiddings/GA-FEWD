@@ -1,0 +1,73 @@
+body {
+	background-image: url("grass.jpg");
+	background-size:cover;
+	background-position:top;
+	background-repeat:no-repeat;
+	color:white;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:1.5em;
+	width:100%;
+}
+
+h1, h2 {
+	font-weight:normal;
+	text-shadow: 0 0 10px #333;
+}
+
+img {
+	border-radius:50%;
+	width:250px;
+	margin-top:20px;
+	box-shadow: 0 0 20px #555;
+}
+
+div.about {
+	max-width:800px;
+	background:rgba(255,255,255,.7);
+	padding:15px;
+	margin: 10px auto 75px auto;
+	color:#333;
+}
+
+/* for the portfolio part of the project 
+
+nav {
+	margin-top:10px;
+}
+
+nav a {
+	background:#333;
+	color:#f0f0f0f;
+	padding:10px;
+	border-radius:7px;
+	font-size:.75em;
+}
+
+nav a:link, nav a:visited {
+	color:#f0f0f0;
+	text-decoration:none;
+}
+
+nav a:hover, nav a.current {
+	background:#666;
+} */
+
+footer {
+	background:rgba(51,51,51,.7);
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding:15px;
+	font-size:.75em;
+}
+
+footer a:link, footer a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+footer a:hover {
+	text-decoration:underline;
+}
