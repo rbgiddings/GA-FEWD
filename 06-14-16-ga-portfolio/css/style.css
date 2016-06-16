@@ -1,0 +1,101 @@
+body {
+	background-image: url("../img/grass.jpg");
+	background-size:cover;
+	background-position:top;
+	background-repeat:no-repeat;
+	color:white;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:1.5em;
+	width:100%;
+}
+
+h1, h2 {
+	font-weight:normal;
+	text-shadow: 0 0 10px #333;
+}
+
+h3 {
+	font-weight:normal;
+}
+
+img.face {
+	border-radius:50%;
+	width:250px;
+	margin-top:20px;
+	box-shadow: 0 0 20px #555;
+}
+
+
+
+nav {
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
+nav a {
+	background:#666;
+	color:#f0f0f0f;
+	padding:10px;
+	border-radius:7px;
+	font-size:.75em;
+}
+
+nav a:link, nav a:visited {
+	color:#f0f0f0;
+	text-decoration:none;
+}
+
+nav a:hover, nav a.current {
+	background:#333;
+}
+
+
+div.about, div.portfolio {
+	max-width:800px;
+	background:rgba(255,255,255,.7);
+	padding:15px;
+	margin: 10px auto 75px auto;
+	color:#333;
+}
+
+.portfolio img {
+	width:100%;
+	max-width:400px;
+}
+
+div.portfolio ul {
+	list-style:none;
+	padding:0;
+}
+
+div.portfolio li {
+	padding:10px 10px;
+}
+
+.portfolio hr {
+	max-width:500px;
+	border:0;
+	border-top:solid 1px #333;
+	margin-top:50px;
+}
+
+
+footer {
+	background:rgba(51,51,51,.7);
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding:15px;
+	font-size:.75em;
+}
+
+footer a:link, footer a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+footer a:hover {
+	text-decoration:underline;
+}
