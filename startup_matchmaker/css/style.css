@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+	line-height:2em;
+}
+
+h1, h2, h4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+	font-size:30px;
+	padding:5px 0;
+}
+
+h2 {
+	font-style:italic;
+	font-size:25px;
+}
+
+h3 {
+	font-weight:bold;
+	font-size:25px;
+	padding:10px 0;
+}
+h4 {
+	font-size:25px;
+	padding:10px 0;
+}
+
+.container {
+	max-width:1024px;
+	margin:0 auto;
+	overflow:auto;
+}
+
+.logo {
+	color:yellow;
+}
+
+.float-left {
+	float:left;
+}
+
+.float-right {
+	float:right;
+}
+
+.crossout {
+	color:grey;
+	text-decoration:line-through;
+}
+
+.underline {
+	display:inline-block;
+	border-bottom:double 2px yellow;
+}
+
+.dropshadow {
+	box-shadow:0px 2px 3px dimgray;
+}
+
+/* BUTTONS */
+
+.btn {
+	display:block;
+	text-align:center;
+	border-radius:3px;
+	text-transform:uppercase;
+	font-size:18px;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	margin:20px 0;
+	padding:12px 10px;
+	font-weight:bold;
+}
+
+.btn:link, .btn:visited {
+	text-decoration:none;
+	color:black;
+}
+
+.btn.yellow {
+	background:yellow;
+	box-shadow:0 3px 0 goldenrod;
+}
+
+.btn.yellow:hover {
+	background:goldenrod;
+	box-shadow:0 3px 0 darkgoldenrod;
+}
+
+.btn.grey {
+	background:lightgray;
+	box-shadow:0 3px 0 gray;
+}
+
+.btn.grey:hover {
+	background:grey;
+	box-shadow:0 3px 0 dimgray;
+}
+
+/* COLUMNS */
+
+.col-3 {
+	display:inline-block;
+	box-sizing:border-box;
+	width:33.3%;
+	padding:0 20px;
+	border-right:1px lightgray solid;
+	vertical-align:top;
+}
+
+.col-3:last-child {
+	border-right:none;
+}
+
+
+/* HEADER */
+
+#header {
+	background:black;
+	border-bottom: 5px solid yellow;
+	padding:20px;
+}
+
+nav ul li {
+	display:inline-block;
+}
+
+li.caps-nav {
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+nav li a:link, nav li a:visited {
+	color:white;
+	text-decoration:none;
+	display:block;
+	padding:15px 0 10px 10px;
+	
+}
+
+nav li a:hover {
+	color:yellow;
+}
+
+/* TAGLINE */
+
+#tagline {
+	background: lightgray;
+	text-align:center;
+	padding:20px;
+	position:relative;
+}
+
+/* HERO */
+
+#hero {
+	background:url(../images/coworking.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+#intro {
+	max-width:250px;
+	margin:30px 20px;
+	padding:20px 30px;
+	background:rgba(255,255,255,.8);
+	box-shadow:0px 0px 8px black;
+}
+
+/* FEATURES */
+
+#features {
+	padding:20px;
+}
+
+/* FOOTER */
+
+#footer {
+	padding:10px 20px;
+	background:black;
+	color:white;
+}
