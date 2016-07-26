@@ -14,43 +14,21 @@
         <script src="js/script.js"></script>
         
 	</head>
-	<body id="app">
+	<body id="home">
+    <div id="home_container">
 		<header>
-        	<div id="menu-icon"><button><i class="fa fa-bars"></i></button></div>
             <h1 id="header-logo" class="logo">mood<span>settr</span></h1>
-        	<div id="volume">
-            	<button id="mute"><i class="fa fa-volume-off left"></i>MUTE</button>
-                <button id="volume-down"><i class="fa fa-volume-down"></i></button>
-                <div id="volume-slider-container"><div id="volume-slider"><span id="slider-button"></span></div></div>
-                <button id="volumne-up"><i class="fa fa-volume-up"></i></button>
-            </div>
-            <div id="fullscreen"><button><i class="fa fa-expand left"></i>FULLSCREEN</button></div>
+            <h2 id="tagline">Stunning photos. <br />Refreshing sounds.</h2>
         </header>
-        <audio src="audio/rain.mp3" loop autoplay>Sorry, your browser does not support the audio.</audio>
-        <div id="menu">
-        	<div id="menu_container">
-                <nav>
-                    <ul>
-                        <li id="rain" class="active"><div>RAIN</div></li><!--
-                        --><li id="beach"><div>BEACH</div></li><!--
-                        --><li id="snow"><div>SNOW</div></li><!--
-                        --><li id="river"><div>RIVER</div></li>
-                    </ul>
-                </nav>	
-                <div id="photo-nav">
-                    <button id="prev"><i class="fa fa-chevron-left left"></i>PREV</button>
-                    <button id="next">NEXT<i class="fa fa-chevron-right right"></i></button>
-                    <h2>PHOTO</h2>
-                    
-                </div>
-                <div id="photo-info">
-                    <div class="photographer"><a href="#" target="_blank"><img src="images/sample-profile.jpg" alt="Luca Braco">Luca Bravo</a></div>
-                    <div class="location"><i class="fa fa-map-marker"></i>Denver, Colorado</div>
-                    <div class="view-unsplash"><i class="fa fa-camera"></i>View on <a href="#" target="_blank">Unsplash</a></div>
-                </div>
-            
-        	
-            </div>
+        <nav>
+                <ul>
+                    <li id="rain"><div>RAIN</div></li><!--
+                    --><li id="beach"><div>BEACH</div></li><!--
+                    --><li id="snow"><div>SNOW</div></li><!--
+                    --><li id="river"><div>RIVER</div></li>
+                </ul>
+        </nav>
+     </div>
         <footer>
             	<div id="share"><button id="share-button">SHARE<i class="fa fa-share right"></i></button></div><!--            
             	--><div id="author">
@@ -61,12 +39,10 @@
                         <li class="instagram"><a href="http://instagram.com/rbgiddings" target="_blank"><i class="fa fa-instagram"></i></a></li>
                     </ul>               
                 </div>
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-				<!--<div class="addthis_sharing_toolbox"></div>-->
-                
-                
                 
             </footer>
+        
+         
             
             
             <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="http://rebeccabgiddings.com/2016/01/jane-austen-inspired-tea-bag-cookies/" addthis:title="Jane Austen-inspired Tea Bag Cookies">
@@ -75,8 +51,7 @@
                     <a class="addthis_button_twitter addthis_button_preferred_4 at300b" title="Tweet" href="#"><span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px; background-color: rgb(29, 161, 242);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="Twitter" alt="Twitter" class="at-icon at-icon-twitter" style="width: 32px; height: 32px;"><g><path d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336" fill-rule="evenodd"></path></g></svg></span></a>
                     <a class="addthis_button_compact at300m" href="#"><span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px; background-color: rgb(255, 101, 80);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="More" alt="More" style="width: 32px; height: 32px;" class="at-icon at-icon-addthis"><g><path d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span></a>
                 <div class="atclear"></div></div>
-            
-        </div>
+          
        <!-- Go to www.addthis.com/dashboard to customize your tools -->
 		<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-579181b6670ac775"></script>-->
 
